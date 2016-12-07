@@ -10,6 +10,10 @@ module.exports = {
 	entry: "./js/client.js",
 	module: {
 		loaders: [
+		{ 
+			test: /\.json$/, 
+			loader: 'json' 
+		},
 		{
 			test: /\.jsx?$/,
 			exclude: /(node_modules|bower_components)/,

@@ -7,7 +7,7 @@ import styles from './layout.scss'
 
 import SquaresGrid from '../squares_grid'
 
-const config = require('json!../../../config')
+const config = require('../../../config')
 
 export default class Layout extends React.Component {
 	render(){
