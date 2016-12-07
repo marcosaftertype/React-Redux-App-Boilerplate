@@ -1,7 +1,7 @@
 {
-  "name": "themes-admin-dash",
+  "name": "react-redux-app-boilerplate",
   "version": "1.0.0",
-  "description": "Themes Admin Dash",
+  "description": "React + Redux app boilerplate ",
   "main": "webpack.config.js",
   "scripts": {
     "dev": "./node_modules/.bin/webpack-dev-server --inline --hot",
